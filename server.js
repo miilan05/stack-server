@@ -3,7 +3,7 @@ const { Server } = require("socket.io");
 const { LinkedList, Room } = require("./dataTypes");
 const path = require("path");
 
-const PORT = 0000;
+const PORT = 0;
 const ROOM_ID_LENGTH = 6;
 const CLIENT_WAITING_THRESHOLD = 2;
 const CLIENT_ORIGIN = ["*"];
